@@ -3,7 +3,8 @@ import sounddevice as sd
 import io
 from piper.voice import PiperVoice
 
-model = "C:/Abishek/mypy/TALK2ME/Resources/en_US-john-medium.onnx"
+model = "./resources/en_US-john-medium.onnx"
+model = "./resources/en_US-danny-low.onnx"
 voice = PiperVoice.load(model)
 text = "Archaeology is indeed the scientific study of human history and prehistory through the systematic excavation and analysis of sites and the material remains (artifacts, architecture, biofacts, and cultural landscapes) that people have left behind."
 

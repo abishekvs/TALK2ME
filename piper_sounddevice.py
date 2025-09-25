@@ -31,7 +31,8 @@ text = str
 dt=datetime.datetime
 print(f"Begin Script:{dt.now()}")
 
-model = "C:/Abishek/mypy/TALK2ME/Resources/en_US-john-medium.onnx"
+#model = "./resources/en_US-john-medium.onnx"
+model = "./resources/en_US-danny-low.onnx"
 voice = PiperVoice.load(model)
 
 text1 = "This temporary wave file was generated from Python call to piper output to python sound device"

@@ -13,8 +13,8 @@ mixer.init()
 mp3audio = BytesIO()
 audio_file='D:/Abishek/TALK2ME/sample/ttstest.wav'
 
-voice = PiperVoice.load('C:/Abishek/mypy/TALK2ME/Resources/en_US-john-medium.onnx',
-	config_path='C:/Abishek/mypy/TALK2ME/Resources/en_US-john-medium.onnx.json')
+voice = PiperVoice.load('./resources/en_US-john-medium.onnx',
+	config_path='./resources/en_US-john-medium.onnx.json')
 
 print(mp3audio.getbuffer().nbytes)
 
