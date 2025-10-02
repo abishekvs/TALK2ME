@@ -1,0 +1,4 @@
+Reference links
+https://www.theengineeringprojects.com/2023/05/interface-4x4-keypad-with-raspberry-pi-4.html
+https://pypi.org/project/pad4pi/1.0.0/
+https://www.sarkitshala.com/raspberry/interfacing-4x4-keypad-raspberrypi
