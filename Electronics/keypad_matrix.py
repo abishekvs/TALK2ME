@@ -68,7 +68,7 @@ def setAllLines(state):
 	GPIO.output(L4, state)
 	GPIO.output(L5, state)
 	GPIO.output(L6, state)
-	GPIO.output(L7, state)
+
 
 def readLine(line, characters):
 
