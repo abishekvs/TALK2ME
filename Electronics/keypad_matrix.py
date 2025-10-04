@@ -120,7 +120,7 @@ try:
 			readLine(L5, ["2","3","4","5","6","7","8"])
 			readLine(L6, ["9"," ",".",",","?","[ENTER]","<-"])
 			##readLine(L7, ["@","#","$","%","^","&","*"])
-            print(input, end="")
+			print(input, end="")
 			time.sleep(0.1)
 			#else:
 			#	time.sleep(0.1)
